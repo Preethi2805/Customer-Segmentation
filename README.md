@@ -45,23 +45,15 @@ The dataset consists of transaction records from an e-commerce platform with the
 - **Box plots** to compare `Recency`, `Frequency`, and `Monetary Value` across clusters.
 - **Bar charts** showing average RFM values per cluster.
 
+![Pairplot - relationships between features and their cluster distribution.](pairplot.png)
+![Boxplot](boxplot.png)
+
 ## 🔧 Technologies Used
 - **Python**
 - **Pandas, NumPy** – Data Manipulation
 - **Matplotlib, Seaborn** – Data Visualization
 - **Scikit-Learn** – Machine Learning (K-Means Clustering)
 - **StandardScaler** – Feature Scaling
-
-## 🚀 How to Run
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/customer-segmentation-rfm.git
-   ```
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Run the Jupyter Notebook or Python script to perform segmentation.
 
 ## 📌 Future Enhancements
 - Implement **Hierarchical Clustering** for better interpretability.
